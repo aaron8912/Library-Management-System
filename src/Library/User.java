@@ -1,6 +1,6 @@
 package Library;
 
-public class User {
+public abstract class User {
 
     protected String name;
     protected String email;
@@ -29,4 +29,5 @@ public class User {
         return phoneNumber;
     }
 
+    abstract public void menu();
 }
